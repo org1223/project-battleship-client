@@ -1,0 +1,151 @@
+.container {
+    display: flex;
+}
+
+.grid-user {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    margin: 20px;
+}
+
+.grid div {
+    width: 40px;
+    height: 40px;
+}
+
+.grid-computer {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: greenyellow;
+    margin: 20px;
+}
+
+.grid-display {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    background-color: yellow;
+}
+
+.destroyer-container {
+    width: 80px;
+    height: 40px;
+    background-color: #70a0d1;
+    margin: 10px;
+    display: flex;
+}
+
+.destroyer-container-vertical {
+    width: 40px;
+    height: 80px;
+    background-color: #70a0d1;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.submarine-container {
+    width: 120px;
+    height: 40px;
+    background-color: #6c9cec;
+    margin: 10px;
+    display: flex;
+}
+
+.submarine-container-vertical {
+    width: 40px;
+    height: 120px;
+    background-color: #6c9cec;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cruiser-container {
+    width: 120px;
+    height: 40px;
+    background-color: #22446e;
+    margin: 10px;
+    display: flex;
+}
+
+.cruiser-container-vertical {
+    width: 40px;
+    height: 120px;
+    background-color: #22446e;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.battleship-container {
+    width: 160px;
+    height: 40px;
+    background-color: #172738;
+    margin: 10px;
+    display: flex;
+}
+
+.battleship-container-vertical {
+    width: 40px;
+    height: 160px;
+    background-color: #172738;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carrier-container {
+    width: 200px;
+    height: 40px;
+    background-color: #648cac;
+    margin: 10px;
+    display: flex;
+}
+
+.carrier-container-vertical {
+    width: 40px;
+    height: 200px;
+    background-color: #648cac;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ship div {
+    width: 40px;
+    height: 40px;
+}
+
+.destroyer {
+    background-color: #70a0d1;
+}
+
+.submarine {
+    background-color: #6c9cec;
+}
+
+.cruiser {
+    background-color: #22446e;
+}
+
+.battleship {
+    background-color: #172738;
+}
+
+.carrier {
+    background-color: #648cac;
+}
+
+.boom {
+    background-color: orangered;
+}
+
+.miss {
+    background-color: white;
+}
